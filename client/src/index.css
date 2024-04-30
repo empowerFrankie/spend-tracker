@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+input,
+select,
+label {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
